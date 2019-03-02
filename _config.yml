@@ -17,13 +17,13 @@ icon: fa-diamond # Font Awesome class for your site's icon
 # Social settings
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+gitlab_url: https://gitlab.com/
+googleplus_url: https://plus.google.com/
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.linkedin.com/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/
 
 # Build settings
 markdown: kramdown

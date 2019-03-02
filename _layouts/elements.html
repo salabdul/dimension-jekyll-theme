@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+		<head>
+				<title>{{ site.title }}</title>
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+				<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+				<link rel="stylesheet" href="{{ '../assets/css/main.css' | relative_url }}" />
+				<!--[if lte IE 9]><link rel="stylesheet" href="{{ 'assets/css/ie9.css' | relative_url }}" /><![endif]-->
+				<noscript><link rel="stylesheet" href="{{ 'assets/css/noscript.css' | relative_url }}" /></noscript>
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+				<link rel="manifest" href="/site.webmanifest">
+				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+				<meta name="theme-color" content="#ffffff">
+		</head>
+		
+  <body>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon {{ site.icon }}"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>{{ site.title }}</h1>
+					<p>{{ site.description }}</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#ELEMENTS">ELEMENTS</a></li>
+				</ul>
+			</nav>
+		</header>
+
+    <div id="main">
+
+  <article id="ELEMENTS">
+    <p>{{ page.content }}</p>
+  </article>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+	<p class="copyright">&copy; {{ site.title }}</p>
+</footer>
+
+</div>
+
+<!-- BG -->
+<div id="bg"></div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ '../assets/js/skel.min.js' }}"></script>
+<script src="{{ '../assets/js/util.js' }}"></script>
+<script src="{{ '../assets/js/main.js' }}"></script>
+  </body>
+
+</html>

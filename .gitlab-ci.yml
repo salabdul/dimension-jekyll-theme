@@ -1,7 +1,15 @@
 image: ruby:2.3
 
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+cache:
+  paths: 
+    - vendor/
+
 pages:
-  stage: build
+  stage: deploy
   script:
   - gem install jekyll
   - jekyll build -d public
@@ -9,6 +17,3 @@ pages:
   artifacts:
     paths:
     - public
-    - "dimension_jekyll_theme-*.gem"
-  only:
-  - master

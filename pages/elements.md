@@ -1,5 +1,6 @@
 ---
-title: elements
+layout: elements
+permalink: /elements/
 ---
 
 <section>
